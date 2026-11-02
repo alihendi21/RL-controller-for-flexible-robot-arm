@@ -1,0 +1,7 @@
+# Raspberry Pi 4B (Raspberry Pi OS, I2C enabled)
+numpy
+matplotlib
+RPi.GPIO
+adafruit-blinka
+adafruit-circuitpython-mcp4725
+adafruit-circuitpython-ads1x15
