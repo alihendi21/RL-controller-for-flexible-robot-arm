@@ -18,6 +18,8 @@ The goal is to swing a 1 m flexible link to a target angle **and** suppress its 
 
 ## Results
 
+> **The finalized figures of the project are in the presentation:** [`docs/RL_Flexible_Arm_Presentation.pptx`](docs/RL_Flexible_Arm_Presentation.pptx). The plots below are taken from it.
+
 | | |
 |---|---|
 | Target position | −30° |
@@ -121,7 +123,7 @@ The Raspberry Pi 4B couldn't run the LSTM + SAC policy in real time. So the trai
 ├── data/runs/                      # 520 experimental runs (CSV, 100 Hz)
 ├── models/                         # trained LSTM, scalers and SAC agent used in the project
 ├── experiments/                    # voltage sequence sent to the arm + real-arm log
-├── docs/                           # project presentation (PDF + PPTX)
+├── docs/                           # project presentation (PPTX) with the finalized figures
 ├── media/                          # figures and demo video
 └── requirements.txt
 ```
@@ -129,8 +131,8 @@ The Raspberry Pi 4B couldn't run the LSTM + SAC policy in real time. So the trai
 ## Getting started
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/alihendi21/RL-controller-for-flexible-robot-arm.git
+cd RL-controller-for-flexible-robot-arm
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
